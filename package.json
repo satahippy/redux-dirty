@@ -1,0 +1,19 @@
+{
+  "name": "redux-dirty",
+  "version": "0.1.0",
+  "author": "satahippy <satahippy@gmail.com>",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satahippy/redux-dirty.git"
+  },
+  "scripts": {
+    "build": "babel lib --out-dir build",
+    "prepublish": "npm run build"
+  },
+  "main": "./index.js",
+  "peerDependencies": {
+    "react": ">=15",
+    "redux": ">="
+  }
+}
